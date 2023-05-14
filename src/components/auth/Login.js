@@ -23,7 +23,7 @@ function Login() {
             console.log(user);
             setisLoading(false)
             toast.success("login successful...")
-            navigate('/')
+            navigate('/home')
         })
         .catch((error) => {
             toast.error(error.message);
