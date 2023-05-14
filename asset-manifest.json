@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "//mgaber189.github.io/eShop/static/css/main.c89c9ba7.css",
+    "main.js": "//mgaber189.github.io/eShop/static/js/main.c229ee85.js",
+    "static/js/787.46493d11.chunk.js": "//mgaber189.github.io/eShop/static/js/787.46493d11.chunk.js",
+    "static/media/register.png": "//mgaber189.github.io/eShop/static/media/register.c63eced99fcb38972a6c.png",
+    "static/media/login.png": "//mgaber189.github.io/eShop/static/media/login.78ccab5e2cbeadd1d2f2.png",
+    "static/media/loader.gif": "//mgaber189.github.io/eShop/static/media/loader.9d11df4bdd0bb34de773.gif",
+    "index.html": "//mgaber189.github.io/eShop/index.html",
+    "main.c89c9ba7.css.map": "//mgaber189.github.io/eShop/static/css/main.c89c9ba7.css.map",
+    "main.c229ee85.js.map": "//mgaber189.github.io/eShop/static/js/main.c229ee85.js.map",
+    "787.46493d11.chunk.js.map": "//mgaber189.github.io/eShop/static/js/787.46493d11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c89c9ba7.css",
+    "static/js/main.c229ee85.js"
+  ]
+}
