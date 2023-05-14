@@ -1,0 +1,35 @@
+.container{
+    color: black;
+    padding: 10px;
+}
+.catbtn{
+    padding: 5px 0px;
+    margin: 10px auto;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    text-align: left;
+    border-radius: 0;
+    color: black;
+    font-size: 22px;
+}
+.brand select{
+    width: 100%;
+    padding: 3px;
+    font-size: 22px;
+    background-color: white;
+    color: black;
+
+}
+.price input {
+    padding: 5px;
+}
+.clearbtn{
+    padding: 5px 10px;
+    background-color: orangered;
+    color: white;
+    width: 50%;
+    margin: 0;
+}
+h2{
+    margin-top: 0;
+}

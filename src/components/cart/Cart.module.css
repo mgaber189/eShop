@@ -1,0 +1,129 @@
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top:40px;
+    min-height: 80vh;
+}
+.container h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+table{
+    border-collapse: collapse;
+    font-weight:bold ;
+    width: 100%;
+    border-bottom: 1px solid rgb(157, 157, 157);
+}
+thead{
+    border-top: 3px solid #1f93ff;
+    border-bottom: 3px solid #1f93ff;
+}
+table tr:nth-child(even){
+    background-color: #eee;
+}
+td{
+    padding: 20px 20px;
+    vertical-align: top;
+}
+td span{
+    background-color: #eee;
+    padding: 10px 13px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+thead th{
+    border: 1px solid #eee;
+    padding: 5px 20px;
+    text-align: left;
+}
+tbody td img{
+    display: block;
+    width: 15%;
+}
+table button{
+    background-color: transparent;
+    color: red;
+    padding: 0;
+    margin: 0;
+    width: 0;
+}
+.summery{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.summery button{
+    background-color: orangered;
+    color: white;
+    padding: 10px 15px;
+    margin: 0;
+    width: auto;
+    height: min-content;
+}
+.checkout{
+    width: 35%;
+}
+.summerycard{
+    margin: 10px auto;
+    text-align: left;
+    background-color: white;
+}
+.totalprice{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+}
+.totalprice h4{
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.totalprice h3{
+    font-size: 2em;
+    margin: 0;
+    color: orangered;
+    font-weight: lighter;
+}
+.summerycard button{
+    background-color: #1f93ff;
+    color: white;
+    width: 100%;
+}
+@media screen and (max-width: 1200px){
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .image{
+        display: none !important;
+    }
+    .checkout{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 800px){
+    .container{
+        width: 98%;
+        height: auto;
+    }
+    td{
+        padding: 20px 5px;
+    }
+    tbody td img{
+        display: none !important;
+    }
+    .checkout{
+        width: 70%;
+    }
+    thead th{
+        font-size: 10px;
+        padding: 5px 0px !important;
+    }
+    span{
+        padding: 2px !important;
+    };
+}

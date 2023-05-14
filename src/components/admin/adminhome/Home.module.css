@@ -1,0 +1,38 @@
+.infobox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+.card1{
+    border-bottom: 5px solid #b624ff;
+}
+.card2{
+    border-bottom: 5px solid #1f93ff;
+}
+.card3{
+    border-bottom: 5px solid orangered;
+}
+.chart{
+    width: 50%;
+}
+.chart div canvas{
+    min-height: 400px !important;
+}
+@media screen and (max-width: 1400px){
+    .chart{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 1000px){
+    .chart{
+        width: 100%;
+        margin: 25px;
+    }
+    .chart div canvas{
+        min-height: 250px;
+    }
+
+}

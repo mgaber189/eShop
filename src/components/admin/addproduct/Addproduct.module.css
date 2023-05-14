@@ -1,0 +1,49 @@
+.formcard{
+    background-color: white;
+    text-align: left;
+    width: 50%;
+    margin: 0;
+}
+form label{
+    font-size: 20px;
+    font-weight: bold;
+}
+form input{
+    margin: 10px 0;
+    border: 1px solid #eee;
+    padding: 5px 10px;
+
+}
+select{
+    width: 93%;
+    border: 1px solid #eee;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin: 10px 0;
+
+}
+textarea{
+    width: 90%;
+    border: 1px solid #eee;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.formcard button{
+    margin: 0;
+    width: auto;
+    color: white;
+    background-color:#1f93ff ;
+}
+@media screen and (max-width: 1400px){
+.formcard{
+    margin: auto;
+    width: 65%;
+}
+}
+@media screen and (max-width: 1000px){
+    .formcard{
+        margin: auto;
+        width: 80%;
+    }
+}

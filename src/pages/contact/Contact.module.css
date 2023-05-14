@@ -1,0 +1,118 @@
+.container{
+    width: 70%;
+    margin: auto;
+    min-height: 75vh;
+    margin-top: 60px;
+    padding: 15px;
+}
+.container h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.containt{
+    display: flex;
+    justify-content: flex-start;
+}
+.containt .card{
+    margin: 0;
+    padding: 10px;
+    width: 49%;
+}
+.contactform{
+    width: 40% !important;
+    background-color: white;
+    animation: slide-down 0.5s ease;
+}
+.contactform form label{
+    margin-bottom: 10px;
+}
+.contactform input{
+    padding: 2px 10px;
+    margin: 5px auto;
+    width: 95%;
+    border-radius: 5px;
+}
+.contactform input::placeholder{
+    font-size: 17px;
+}
+textarea{
+    width: 99%;
+    padding: 0;
+    margin: 5px auto;
+
+}
+.contactinfo{
+    background-color: #1f93ff;
+    color: white;
+    height: 50% ;
+    text-align: left;
+    padding: 15px !important;
+    width: 45% !important;
+    margin-left: 30px !important;
+    animation: slideup 1s ease;
+}
+.contactinfo p{
+    margin: 7px 0;
+}
+.infotitle{
+    font-size: 30px;
+}
+form>*{
+    display: block;
+}
+form{
+    text-align: left;
+}
+.submitbtn{
+    background-color: #1f93ff;
+    width: auto;
+    padding: 10px 15px;
+    color: white;
+    margin: 0;
+}
+@keyframes slideup {
+    0% {
+        transform: translateY(-5rem);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+@keyframes slide-down {
+    0% {
+      transform: translateY(5rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+@media screen and (max-width: 1700px){
+    .container{
+        width: 80%;
+        height: 76.5vh;
+    }
+}
+@media screen and (max-width: 1200px){
+    .container{
+        width: 90%;
+        height: 76.5vh;
+    }
+}
+@media screen and (max-width: 1000px){
+    .container{
+        width: 90%;
+        height: auto;
+        text-align: center;
+    }
+    .containt{
+        display: inline-block;
+        width: 90%;
+    }
+    .contactform{
+        margin: auto !important;
+        width: 90% !important;
+    }
+    .contactinfo{
+        display: none;
+    }
+}

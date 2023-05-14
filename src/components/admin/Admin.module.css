@@ -1,0 +1,33 @@
+.admin{
+    width: 100%;
+    display: flex;
+}
+.navbar{
+    width: 25%;
+    min-height: 80vh;
+}
+.content{
+    width: 75% !important;
+    padding: 1rem;
+}
+@media screen and (max-width: 1400px){
+    .content{
+        width: 60%;
+    }
+
+}
+@media screen and (max-width: 800px){
+
+    .admin{
+        display: block;
+    }
+    .navbar{
+        min-height: auto;
+        width: 100%;
+    }
+    .content{
+        width: 95% !important;
+        margin: auto;
+    }
+
+}
